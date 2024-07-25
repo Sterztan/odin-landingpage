@@ -1,6 +1,9 @@
 body {
     display: flex;
+    flex-direction: column;
     font-style: Roboto;
+    margin: 0;
+    padding: 0;
 }
 
 .hero {
@@ -42,4 +45,63 @@ a {
 .info button {
     background-color: #3882f6;
     color: #f9faf8;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.second .container {
+    display: flex;
+}
+
+.second .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+}
+
+.third {
+    background-color: #e5e7eb;
+}
+
+.third .container {
+    margin: 128px 256px;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: italic;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    display: flex;
+    background-color: #3882f6;
+    padding: 32px 64px;
+    margin: 64px 128px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
 }
