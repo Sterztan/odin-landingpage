@@ -16,6 +16,8 @@ body {
 
 .logo {
     margin: 16px;
+    width: 75px;
+    height: auto;
 }
 
 ul {
@@ -44,6 +46,8 @@ a {
     display: flex;
     padding: 128px;
     justify-content: space-between;
+    flex: 1;
+    max-width: 1250px;
 }
 
 .info {
@@ -65,7 +69,7 @@ a {
 }
 
 .info button {
-    background-color: #3882f6;
+    background-color: #cd071e;
     color: #f9faf8;
     border: none;
     border-radius: 8px;
@@ -77,8 +81,8 @@ a {
 
 .hero img {
     display: flex;
-    width: 600px;
-    height: 300px;
+    width: 700px;
+    height: auto;
 }
 
 .second {
@@ -101,7 +105,7 @@ a {
 
 .second img {
     border: 8px;
-    border-color: #3882f6;
+    border-color: #cd071e;
 }
 
 .second .item {
@@ -118,13 +122,14 @@ a {
 .item img {
     height: 200px;
     width: 200px;
-    border: 8px;
-    border-color:#3882f6;
+    border: 8px solid;
+    border-color: #cd071e;
     border-radius: 8px;
 }
 
 .image-subtext {
     padding: 8px;
+    font-weight: bold;
 }
 
 .third {
@@ -133,11 +138,21 @@ a {
 
 .third .container {
     margin: 128px 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
     font-size: 36px;
     font-family: italic;
+    margin: 8px;
+}
+
+.quote-by {
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .fourth {
@@ -148,10 +163,14 @@ a {
 
 .fourth .container {
     display: flex;
-    background-color: #3882f6;
+    background-color: #cd071e;
     padding: 32px 64px;
     margin: 64px 128px;
     justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    flex: 1;
+    max-width: 500px;
 }
 
 .sign-up {
@@ -166,13 +185,14 @@ a {
 }
 
 .fourth button {
-    background-color: #3882f6;
+    background-color: #cd071e;
     color: #f9faf8;
     border: 2px solid;
     border-color:#f9faf8;
     border-radius: 8px;
     font-weight: bold;
     align-self: start;
+    padding: 8px 16px;
 }
 
 .footer {
